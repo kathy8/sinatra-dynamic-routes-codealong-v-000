@@ -26,4 +26,3 @@ class App < Sinatra::Base
     @math = params[:num1].to_i * params[:num2].to_i
     "#{@math}"
   end
-end
